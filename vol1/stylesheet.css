@@ -1,0 +1,298 @@
+
+p{
+	font-family: 'Poiret One', cursive;	
+	font-size:80px;
+	color:#269926;
+}
+
+p#h1{
+	font-family: 'Poiret One', cursive;	
+	font-size:130px;
+	color:#269926;
+}
+
+p.h1{
+	font-family: 'Poiret One', cursive;	
+	font-size:130px;
+	color:#269926;
+}
+
+p#h1v2{
+	font-family: 'Poiret One', cursive;	
+	font-size:130px;
+	color:#269926;
+	margin:0;
+}
+
+p#h2{
+	font-family: 'Poiret One', cursive;	
+	font-size:80px;
+	color:#269926;
+	margin-top:0px;
+	margin-bottom:20px;
+}
+p.h2{
+	font-family: 'Poiret One', cursive;	
+	font-size:80px;
+	color:#269926;
+	margin-top:0px;
+	margin-bottom:20px;
+}
+a#facebook:hover{
+	text-decoration: none; 
+}
+
+p#h2v2{
+	font-family: 'Poiret One', cursive;	
+	font-size:80px;
+	color:#269926;
+	margin-top:5px;
+	margin-bottom:20px;
+}
+
+p#h3{
+	font-family: 'Poiret One', cursive;	
+	font-size:50px;
+	color:#269926;
+	margin-top:5px;
+	margin-bottom:3px;
+}
+p.h3{
+	font-family: 'Poiret One', cursive;	
+	font-size:50px;
+	color:#269926;
+	margin-top:5px;
+	margin-bottom:3px;
+}
+
+p#h3_bold{
+	font-family: 'Poiret One', cursive;	
+	font-size:50px;
+	color:#269926;
+	margin-top:5px;
+	margin-bottom:3px;
+	font-weight:bold;
+}
+p#h4{
+	font-family: 'Poiret One', cursive;	
+	font-size:30px;
+	color:#269926;
+	margin-top:5px;
+	margin-bottom:3px;
+	height:50px;
+}
+.h4{
+	font-family: 'Poiret One', cursive;	
+	font-size:30px;
+	color:#269926;
+	margin-top:5px;
+	margin-bottom:3px;
+	height:50px;
+}
+p#h5{
+	font-family: 'Poiret One', cursive;	
+	font-size:10px;
+	color:#269926;
+	margin-top:5px;
+	margin-bottom:3px;
+	height:50px;
+}
+
+div#menu_box{
+	width:99%;
+	height:59px;	
+	top:0;
+	background-color:#269926;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:5px;
+}
+
+#toggle{
+	display:none
+}
+
+
+
+@media screen and (max-width:480px) {
+	div#menu_box{
+	height:10px;
+	}
+	
+	#menu{
+	display:none;
+	font:green;
+	}
+	#menu li{
+		width:100%;
+		font-size:30px;
+	}
+	#toggle{
+		display:block;
+		height:35px;
+		width: 100%;
+		font-family: 'Poiret One', cursive;	
+		font-size:30px;
+		color:black;
+		margin:0;
+		background: #269926;
+	}
+	#toggle a{
+		display:block;
+		position: relative;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+		line-height:1;
+	}
+	
+}
+	
+ul#menu{
+float:right;
+list-style-type:none;
+background-color: #269926;
+margin:0;
+padding:0;
+}
+
+li{
+	float:left;
+	width:150px;
+	font-family: 'Poiret One', cursive;	
+	font-size:50px;
+	text-align:center;
+	line-height:50px
+}
+
+/*a:link{color:white;}
+a:visited{color:white;}
+a:hover{color:black;}
+a:active{color:white;}
+a{text-decoration:none;}*/
+
+
+div.contents{
+	position:block;
+	width:100%;
+	height:100%;
+	margin-top:50px;
+	text-align:center;	
+}
+@media screen and (max-width:480px) {
+	p#h1v2{
+		font-family: 'Poiret One', cursive;	
+		font-size:75px;
+		color:#269926;
+		margin:0;
+	}
+	p#h2v2{
+		font-family: 'Poiret One', cursive;	
+		font-size:60px;
+		color:#269926;
+		margin-top:25px;
+		margin-bottom:0px;
+	}
+	div.contents{
+		position:block;
+		width:100%;
+		height:100px;
+		margin-top:30px;
+		text-align:center;	
+	}
+	ul#menu{
+		width:100%
+	}
+}
+body {
+	line-height:70px;
+}
+
+div#height{
+	line-height:45px;
+	font-size:17px;
+	color:#269926;
+}
+
+div#card{
+	margin:100px;
+	position:block;
+	height:420px;
+	width:350px;
+	margin-left : auto ; 
+	margin-right : auto ;
+	border-radius: 20px;
+	border:medium solid #269926;
+	-webkit-box-shadow: 0 0 6px DarkGreen;
+	-moz-box-shadow: 0 0 6px DarkGreen;
+	box-shadow:0 0 6px DarkGreen;
+	text-align:center;
+}
+@media screen and (max-width:480px) {
+div#card{
+	margin-bottom:0px;
+	margin-top: 30px;
+	height:350px;
+	width:250px;
+	margin-left : auto ; 
+	margin-right : auto ;
+	border-radius: 20px;
+	border:medium solid #269926;
+	-webkit-box-shadow: 0 0 6px DarkGreen;
+	-moz-box-shadow: 0 0 6px DarkGreen;
+	box-shadow:0 0 6px DarkGreen;
+	text-align:center;
+	}
+}
+
+div#card2{
+	margin-top:100px;
+	position:block;
+	height:360px;
+	width:350px;
+	margin-left : auto ; 
+	margin-right : auto ;
+	border-radius: 20px;
+	border:medium solid #269926;
+	-webkit-box-shadow: 0 0 6px DarkGreen;
+	-moz-box-shadow: 0 0 6px DarkGreen;
+	box-shadow:0 0 6px DarkGreen;
+	text-align:center;
+}
+
+@media screen and (max-width:480px){
+	div#card2{
+		margin-bottom:0px;
+		margin-top: 30px;
+		height:360px;
+		width:250px;
+		margin-left : auto ; 
+		margin-right : auto ;
+		border-radius: 20px;
+		border:medium solid #269926;
+		-webkit-box-shadow: 0 0 6px DarkGreen;
+		-moz-box-shadow: 0 0 6px DarkGreen;
+		box-shadow:0 0 6px DarkGreen;
+		text-align:center;	
+	}
+}
+
+#nomale{
+	color:black;
+	font-size:20px;
+	height:20px
+}
+
+@media screen and (max-width:480px){
+	#nomale{
+		font-size:15px;
+	}
+}
+
+
+
+
+
+
+
+	
